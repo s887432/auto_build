@@ -1,5 +1,5 @@
 #!/bin/bash
-result_p="files"
+result_p=""
 at91bootstrap_resF="boot.bin"
 u_boot_resF="u-boot.bin"
 u_boot_env_resF="uboot-env.bin"
@@ -30,9 +30,9 @@ echo ""
 git clone git://github.com/s887432/build_scripts.git
 chmod a+x ./build_scripts/*
 
-source ./auto_script/build_at91.sh
-source ./auto_script/build_uboot.sh
-source ./auto_script/build_kernel.sh
-source ./auto_script/build_ubootenv.sh
-source ./auto_script/build_rootfs.sh
-source ./auto_script/build_copyapp.sh
+source ./build_scripts/build_at91.sh
+source ./build_scripts/build_uboot.sh
+source ./build_scripts/build_kernel.sh
+source ./build_scripts/build_ubootenv.sh
+source ./build_scripts/build_rootfs.sh
+source ./build_scripts/build_copyapp.sh
