@@ -1,5 +1,5 @@
 #!/bin/bash
-result_p=""
+result_p="output"
 at91bootstrap_resF="boot.bin"
 u_boot_resF="u-boot.bin"
 u_boot_env_resF="uboot-env.bin"
