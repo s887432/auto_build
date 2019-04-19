@@ -30,9 +30,9 @@ echo ""
 git clone git://github.com/s887432/build_scripts.git
 chmod a+x ./build_scripts/*
 
-#source ./auto_script/build_at91.sh
-#source ./auto_script/build_uboot.sh
-#source ./auto_script/build_kernel.sh
-#source ./auto_script/build_ubootenv.sh
-#source ./auto_script/build_rootfs.sh
-#source ./auto_script/build_copyapp.sh
+source ./auto_script/build_at91.sh
+source ./auto_script/build_uboot.sh
+source ./auto_script/build_kernel.sh
+source ./auto_script/build_ubootenv.sh
+source ./auto_script/build_rootfs.sh
+source ./auto_script/build_copyapp.sh
