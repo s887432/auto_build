@@ -35,4 +35,4 @@ source ./build_scripts/build_uboot.sh
 source ./build_scripts/build_kernel.sh
 source ./build_scripts/build_ubootenv.sh
 source ./build_scripts/build_rootfs.sh
-source ./build_scripts/build_copyapp.sh
+source ./build_scripts/build_app.sh
