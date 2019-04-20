@@ -9,6 +9,7 @@ dtb_resF="at91-sama5d27_som1_ek.dtb"
 itb_resF="sama5d27_som1_ek.itb"
 mnt1="mnt1"
 mnt2="mnt2"
+sdcard_img="sdcard.img"
 
 let sd_card_size_MB=500
 let sd_card_size=sd_card_size_MB*1024*1024
