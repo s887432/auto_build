@@ -41,7 +41,7 @@ echo ""
 echo "START $0 @`date +%y%m%d-%T`......"
 echo ""
 
-git clone git://github.com/s887432/build_scripts.git
+git clone https://github.com/s887432/build_scripts.git
 chmod a+x ./build_scripts/*
 
 source ./build_scripts/build_at91.sh
