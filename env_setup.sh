@@ -13,6 +13,6 @@ sudo mv gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf \opt
 // add following to ~/.bashrc
 echo "export CROSS_COMPILE=arm-linux-gnueabi-" >> ~/.bashrc
 echo "ARCH=arm" >> ~/.bashrc
-echo "PATH=$PATH:/opt/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/ >> ~/.bashrc
-echo "PATH=$PATH:/opt/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/ >> ~/.bashrc
+echo "PATH=$PATH:/opt/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/" >> ~/.bashrc
+echo "PATH=$PATH:/opt/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/" >> ~/.bashrc
 
