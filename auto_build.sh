@@ -33,7 +33,6 @@ build_uboot=1
 build_kernel=1
 build_rootfs=1
 build_ubootenv=1
-create_cd_card=1
 build_app=1
 build_sdcard=1
 
