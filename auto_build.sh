@@ -30,6 +30,7 @@ mkdir -p ${result_p}/app
 
 build_bootstrap=1
 build_uboot=1
+patch_wilcdriver=0
 build_kernel=1
 build_rootfs=1
 build_ubootenv=1
