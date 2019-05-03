@@ -46,6 +46,10 @@ chmod a+x ./build_scripts/*
 
 source ./build_scripts/build_at91.sh
 source ./build_scripts/build_uboot.sh
+if [ patch_wilcdriver -eq 1 ]
+then
+  source build_wilcdriver.sh
+fi
 source ./build_scripts/build_kernel.sh
 source ./build_scripts/build_ubootenv.sh
 source ./build_scripts/build_rootfs.sh
