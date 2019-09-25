@@ -7,9 +7,9 @@ desktop-file-utils chrpath groff libtool xterm gawk fop  libncurses5-dev  gcc-mu
 u-boot-tools bison flex mercurial net-tools openssh-server libssl-dev net-tools doxygen graphviz
 
 cd /tmp
-wget -c https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabi \
+wget -c https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabi\
 /gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi.tar.xz
-wget -c https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabihf \
+wget -c https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabihf\
 /gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf.tar.xz
 
 tar xf gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi.tar.xz
