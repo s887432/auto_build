@@ -6,6 +6,8 @@ coreutils diffstat python-pysqlite2 docbook-utils libsdl1.2-dev libxml-parser-pe
 desktop-file-utils chrpath groff libtool xterm gawk fop  libncurses5-dev  gcc-multilib  g++-multilib device-tree-compiler \
 u-boot-tools bison flex mercurial net-tools openssh-server libssl-dev net-tools doxygen graphviz
 
+sudo apt-get install -y pkg-config libdrm-dev libinput-dev libcairo-dev libjpeg-dev libmagic-dev gettext
+    
 cd /tmp
 wget -c https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabi\
 /gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi.tar.xz
