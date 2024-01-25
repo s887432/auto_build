@@ -9,9 +9,9 @@ u-boot-tools bison flex mercurial net-tools openssh-server net-tools doxygen gra
 sudo apt-get install -y pkg-config libdrm-dev libinput-dev libcairo-dev libjpeg-dev libmagic-dev gettext
 
 // add for yocto
-sudo apt-get install gawk wget git-core git-lfs diffstat unzip texinfo gcc-multilib build-essential chrpath socat \
+sudo apt-get install gawk wget diffstat unzip texinfo gcc-multilib build-essential chrpath socat \
 cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
-pylint3 xterm zstd
+xterm zstd
     
 cd /tmp
 wget -c https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabi\
