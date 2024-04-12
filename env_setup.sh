@@ -4,7 +4,7 @@ cur_path = $PWD
 sudo apt-get -y install wget git unzip make gcc g++ build-essential subversion sed autoconf automake texi2html texinfo \
 coreutils diffstat docbook-utils libsdl1.2-dev libxml-parser-perl libgl1-mesa-dev libglu1-mesa-dev xsltproc \
 desktop-file-utils chrpath groff libtool xterm gawk fop  libncurses5-dev  gcc-multilib  g++-multilib device-tree-compiler \
-u-boot-tools bison flex mercurial net-tools openssh-server net-tools doxygen graphviz libssl-dev gtk-doc-tools
+u-boot-tools bison flex mercurial net-tools openssh-server net-tools doxygen graphviz libssl-dev gtk-doc-tools libpkgconf-dev
 
 sudo apt-get install -y pkg-config libdrm-dev libinput-dev libcairo-dev libjpeg-dev libmagic-dev gettext
 
