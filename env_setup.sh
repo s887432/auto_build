@@ -7,7 +7,7 @@ desktop-file-utils chrpath groff libtool xterm gawk fop  libncurses5-dev  gcc-mu
 u-boot-tools bison flex mercurial net-tools openssh-server net-tools doxygen graphviz libssl-dev gtk-doc-tools libpkgconf-dev \
 cmake librsvg2-dev liblua5.3-dev libcurl4-openssl-dev libxkbcommon-dev xkb-data \
 libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libplplot-dev plplot-driver-cairo \
-libasound2-dev libsndfile1-dev
+libasound2-dev libsndfile1-dev libcjson-dev
 
 sudo apt-get install -y pkg-config libdrm-dev libinput-dev libcairo-dev libjpeg-dev libmagic-dev gettext
 
