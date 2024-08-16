@@ -12,7 +12,7 @@ libasound2-dev libsndfile1-dev libcjson-dev
 sudo apt-get install -y pkg-config libdrm-dev libinput-dev libcairo-dev libjpeg-dev libmagic-dev gettext
 
 // add for yocto
-sudo apt-get install gawk wget diffstat unzip texinfo gcc-multilib build-essential chrpath socat \
+sudo apt-get install -y gawk wget diffstat unzip texinfo gcc-multilib build-essential chrpath socat \
 cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
 xterm zstd liblz4-tool
     
