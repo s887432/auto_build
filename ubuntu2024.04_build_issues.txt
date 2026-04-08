@@ -1,0 +1,8 @@
+Build issue
+ERROR: user namespaces are not usable by BitBake. Possibly due to AppArmor.
+
+One time solution
+$ echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+
+$ sudo gedit /etc/sysctl.d/60-apparmor-namespace.conf
+kernel.apparmor_restrict_unprivileged_userns=0
